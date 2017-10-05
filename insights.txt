@@ -1,0 +1,72 @@
+Percentage using react-router-dom
+0.6451612903225806
+-----
+Percentage using react-router-redux
+0.3870967741935484
+-----
+Percentage using react-router
+0.2903225806451613
+-----
+Percentage using jest
+0.22580645161290322
+-----
+Percentage using enzyme
+0.2903225806451613
+-----
+Percentage using express
+0.41935483870967744
+-----
+Percentage using redux
+0.7096774193548387
+-----
+Percentage using react-hot-loader
+0.9032258064516129
+-----
+Percentage using webpack-dev-middleware
+0.3870967741935484
+-----
+Percentage using history
+0.2903225806451613
+-----
+Percentage using react-helmet
+0.25806451612903225
+-----
+Percentage using babel-cli
+0.41935483870967744
+-----
+Percentage using redux-saga
+0.1935483870967742
+-----
+Percentage using redux-thunk
+0.25806451612903225
+-----
+Percentage using immutable
+0.0967741935483871
+-----
+Percentage using eslint
+0.6451612903225806
+-----
+Percentage using eslint-config-airbnb
+0.3548387096774194
+-----
+Percentage using any react-router library
+0.7741935483870968
+-----
+Percentage using any testing library
+0.45161290322580644
+-----
+Percentage using any kind of css library
+0.7096774193548387
+-----
+Percentage using any kind of accessibility library
+0.3870967741935484
+-----
+Percentage using either redux-saga or redux-thunk
+0.41935483870967744
+-----
+Packages using "isomorphic"
+0
+-----
+Packages using "universal"
+0.12903225806451613
+-----

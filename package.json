@@ -1,0 +1,19 @@
+{
+  "name": "react-app-data-science",
+  "version": "1.0.0",
+  "description": "",
+  "main": "aggregate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "express": "^4.16.1",
+    "lodash": "^4.17.4",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
