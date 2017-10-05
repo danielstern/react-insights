@@ -29,16 +29,82 @@ const links = `* [react-kit](https://github.com/thomasthiebaud/react-kit) (webpa
 * [ts-react-boilerplate](https://github.com/sotnikov-link/ts-react-boilerplate) (react, typescript 2, webpack 2 + hot-reload, karma + jasmine + coverage, sourcemaps)
 * [react-boilerplate](https://github.com/mikechabot/react-boilerplate) (Dead simple boilerplate for ReactJS. Webpack 2, Redux. Hot Loader. Router)
 * [molecule](https://github.com/timberio/molecule) (Production ready boilerplate targeting web & electron, using webpack 2, redux, react-hot-loader, immutable.js, react-router and more)
-* [universal-js-hmr-ssr-react-redux](https://github.com/Alex-ray/v2-universal-js-hmr-ssr-react-redux) (Universal JS, Webpack 2, React Router 4, Server Side Rendering, Code Splitting, Redux, Express)`
+* [universal-js-hmr-ssr-react-redux](https://github.com/Alex-ray/v2-universal-js-hmr-ssr-react-redux) (Universal JS, Webpack 2, React Router 4, Server Side Rendering, Code Splitting, Redux, Express),
+* [**redux-minimal** - Minimalist react-redux starter kit which let's you build rich real world apps](http://redux-minimal.js.org/)
+* [**Modern and Scalable React/Redux Boilerplate** - Flexible starter kit using Webpack 2 (tree-shaking) / React Hot Loader v3 / Code Splitting for React Router / PostCSS / CSS Modules / custom *Ducks pattern* app architecture / best practices / Sentry error tracking / Enzyme test environment](https://github.com/nicksp/redux-webpack-es6-boilerplate) :rocket:
+* [**react-production-starter** - React boilerplate with isomorphic rendering, async react-router routes, async redux reducers, async data fetching, and code-splitting.](https://github.com/jaredpalmer/react-production-starter) :metal: :fire:
+* [**mern.io** - Simple full-stack boilerplate to get started with building isomorphic/universal apps, handles api part and also offers a cli to generate the boilerplate](https://github.com/hashnode/mern-starter) :metal: :fire:
+* [**universal-react-redux** - Opinionated Universal React/Redux/Webpack with HMR. Continually updated.](https://github.com/combine/universal-react-redux) :metal: :fire:
+* [**react-slingshot** - React Redux Starter Kit with hot reloading, tests and example app](https://github.com/coryhouse/react-slingshot)
+* [**react-redux-boilerplate** - React Redux Boilerplate](https://github.com/knowbody/react-redux-boilerplate)
+* [**react-boilerplate** - React + Typescript + Sass boilerplate](https://github.com/Keats/react-boilerplate)
+* [**react-redux-scaffold** - Combination of redux, react-router and ES6+ support](https://github.com/lcjnil/react-redux-scaffold)
+* [**simple-redux-boilerplate** - Simple and guided React, Redux boilerplate w/ Transform HMR! :fire:](https://github.com/tsaiDavid/simple-redux-boilerplate)
+* [**reactv** - React Redux example](https://github.com/Amorino/reactv)
+* [**redux-boilerplate** - Boilerplate for Redux](https://github.com/ellbee/redux-boilerplate)
+* [**react-redux-starter-kit** - Get started with React, Redux, and React-Router.](https://github.com/davezuko/react-redux-starter-kit)
+* [**simplest-redux-example** - Simplest Redux + React example for beginners](https://github.com/jackielii/simplest-redux-example)
+* [**redux-easy-boilerplate** - React Redux easy boilerplate](https://github.com/anorudes/redux-easy-boilerplate)
+* [**dicty-redux** - Starter kit to bootstrap React and Redux (Flux) based web application](https://github.com/dictyBase/dicty-redux)
+* [**3ree** - Boilerplate & Demo for Universal Realtime Apps built with React + Redux + RethinkDB + Express](https://github.com/GordyD/3ree)
+* [**react_scaffolding** - React + React Router 1.0 + Redux + Webpack & Hot Module Replacement](https://github.com/rafaelchiti/react_scaffolding)
+* [**express-redux-sample** - Express-Redux-PassportJs-MySQL Boilerplate](https://github.com/aybmab/express-redux-sample)
+* [**redux-blog-example** - Redux-Webpack-Babel Blog Platform boilerplate](https://github.com/GetExpert/redux-blog-example)
+* [**redux-undo-boilerplate** - a magical boilerplate with hot reloading and awesome error handling](https://github.com/omnidan/redux-undo-boilerplate)
+* [**redux500** - The Redux version of isomorphic500](https://github.com/gpbl/redux500)
+* [**redux-demo** - Redux port of SurviveJS - Webpack and React Kanban app](https://github.com/survivejs/redux-demo)
+* [**react-redux-universal-hot-example** - A starter boilerplate for a universal webapp using express, react, redux, webpack, and react-hot-loader](https://github.com/erikras/react-redux-universal-hot-example) :metal:
+* [**rde** - Reactive Live Programming Environment](https://github.com/levjj/rde)
+* [**React Redux Starter Kit** - Yet another React and Redux based web application starter kit](https://github.com/cloudmu/react-redux-starter-kit)
+* [**skeleton** - A simple project-stub to show the basic ideas. Also serves you as a quick start for your project (Mori + Redux)](https://github.com/sullenor/skeleton)
+* [**browser-redux** - Building Chrome apps and cross-browser extensions with Redux and Webpack](https://github.com/zalmoxisus/browser-redux)
+* [**react-for-hipsters-boilerplate** - Fresh boilerplate with brand new hot reloading confing and other hipster stuff](https://github.com/chicoxyzzy/react-for-hipsters-boilerplate)
+* [**Documented Koa Redux React Webpack boilerplate**](https://github.com/mezod/boilerplate-koa-redux-react)- The building process of this boilerplate is deeply documented from 0 for learning purposes. [You can find the docs here](http://blog.joanboixados.com/building-a-boilerplate-for-a-koa-redux-react-application-including-webpack-mocha-and-sass/).
+* [**err** - Electron, React, Redux-devtools boilerplate for building cross-platform apps.](https://github.com/tuommii/err)
+* [**friends-app-redux** - React Redux Universal Hot Example](https://github.com/banzay/friends-app-redux)
+* [**isomorphic-redux-app** - Redux Isomorphic App (with async content)](https://github.com/caljrimmer/isomorphic-redux-app)
+* [**starter-kit** - Project boilerplate using React, Redux and Uniloc http://unicornstandard.com/packages/boilerplate.html](https://github.com/unicorn-standard/starter-kit)
+* [**loopback-redux-react-boilerplate** - A boilerplate for a Redux-React application using LoopBack](https://github.com/tngan/loopback-redux-react-boilerplate)
+* [**breko-hub** - **B**abel **Rea**ct **Ko**a **H**ot **U**niversal **B**oilerplate -- A simple, clean and consistent boilerplate for creating universal webapps with universal data fetching and SocketIO integration](https://github.com/tomatau/breko-hub)
+* [**React Redux Cordova Boilerplate**](https://github.com/inderps/react-redux-cordova-boilerplate)
+* [**react-boilerplate** - Performance orientated, offline-first boilerplate feat. hot-reloading, PostCSS and the best developer experience.](https://github.com/mxstbr/react-boilerplate)
+* [**react-webpack-node** - Boilerplate for an universal React + Redux/alt Flux application using Webpack running on a node express server](https://github.com/choonkending/react-webpack-node)
+* [**Hapi React Starter Kit** - Universal, Redux, Redis, Socket.io, Intl](https://github.com/Dindaleon/hapi-react-starter-kit)
+* [**Universal Redux Template** - A clean, extensible react + redux boilerplate with universal rendering, testing and more](https://github.com/mz026/universal-redux-template)
+* [**universal-js** - A universal Javascript starter kit inc. React, Redux, Redux Dev Tools, Universal Redux Router, CSS Modules, hot module reloading, Babel for ES2015+ and ESLint](https://github.com/colinmeinke/universal-js)
+* [**redux-react-material-boilerplate** - Simple boilerplate inc. React, Redux, Hot reload and Material-ui](https://github.com/WapGeaR/redux-react-material-boilerplate)
+* [**react-redux-starter** - React Redux Starter](https://github.com/exeto/react-redux-starter)
+* [**Reduxible** - The Fast and Easy way to make a React + Redux apps](https://github.com/Pitzcarraldo/reduxible)
+* [**react-workflow** - A large SPA boilerplate for web development built on top of Facebook's React library,use redux architecture](https://github.com/chen844033231/react-workflow)
+* [**ReacToGo** - A simple ES6 boilerplate with Redux architecture and ImmutableJS: Hot Reload, React UI Comp, Firebase, Router](https://github.com/PBRT/reactogo)
+* [**React/Redux simple CRUD** with persistent state and local async actions (add a manifest file and you get an offline webapp) ](https://github.com/cristianszwarc/react_crud_localStorage)
+* [**StarHackIt** - An React/Redux Node full-stack starter kit with authentication and authorization code](https://github.com/FredericHeem/starhackit)
+* [**React Seed** - A barebones scalable directory structure and package.json for facilitating new React + Redux projects. No fat to trim here!](https://github.com/andrewcoelho/react-seed)
+* [**React/Redux with Auth boilerplate** - Very simple boilerplate, good for fast creating admin panels / dashboard. Included: React, Redux, ReduxForm, React-Router, Simple Authenticate, Hot Reload and Webpack (with babel) :fire:](https://github.com/WapGeaR/react-redux-boilerplate-auth)
+* [**Docker + React/Redux + Node + PostgreSQL** - full stack boilerplate with fully dockerized workflows for development, deployment, testing](https://github.com/Producters/docker-node-react-starter)
+* [**Redux universal boilerplate** - boilerplate for react universal application building on flux architecture based on redux implementation.](https://github.com/ufocoder/redux-universal-boilerplate)
+* [**React Redux Universal Boilerplate** - An Universal ReactJS/Redux Boilerplate.](https://github.com/kiki-le-singe/react-redux-universal-boilerplate)
+* [**react-hot-redux-firebase-starter** - Starter boilerplate for using React/Redux with Firebase 3.0 API, include the new React Hot Loader 3.0 :fire:](https://github.com/douglascorrea/react-hot-redux-firebase-starter)
+* [**React Redux Firebase Boilerplate** - Designed for quickly spin up your apps with Firebase, using bunch of awesome new front-end technologies includes webpack build system, hot reloading, routing & sass support. :fire:](https://github.com/btomashvili/react-redux-firebase-boilerplate)
+* [**React Universal Saga** - Universal React Starter Kit ft. Redux Saga](https://github.com/xkawi/react-universal-saga)
+* [**React Redux SoundCloud Client** - Seed Project for a SoundCloud Client with working Login + Extension Seed Projects](https://github.com/rwieruch/react-redux-soundcloud)
+* [**vortigern** - A universal boilerplate for building web applications w/ TypeScript, React, Redux and more.](https://github.com/barbar/vortigern)
+* [**angular2-redux-contact-list** - Simple contact list built with Angular 2, Immutable.js and Redux](https://github.com/hdjirdeh/angular2-redux-contact-list)
+* [**react-redux-seed** - 使用 React 与 Redux 实现 Universal 渲染的种子工程](https://github.com/lewis617/react-redux-seed)
+* [**ARc** - A progressive React starter kit based on Atomic Design with redux, redux-saga and redux-form](https://arc.js.org)
+* [**edux** - fast Redux without constants and switches. Actions and reducers are generated from single source.](https://github.com/dogada/edux)
+* [**fast-redux** - Redux extension with O(1) speed and dynamic importing of reducers/actions.](https://github.com/dogada/fast-redux),`
 
-// const links = `* [react-kit](https://github.com/thomasthiebaud/react-kit) (webpack v2, redux, react-router v4, code splitting, jest, saga, reselect)`;
+const uniq = require('lodash/uniq');
 
 const regExp = /\(([^)]+)\)/g;
 const inBrackets = links.match(regExp);
-const urls = inBrackets
+let urls = inBrackets
     .filter(str=>str.includes("https://github.com/"))
     .map(str=>str.replace('(','').replace(')',''));
 
-// console.log(urls);
+urls = uniq(urls);
+
+console.log(JSON.stringify(urls,null,2));
 
 module.exports = urls;

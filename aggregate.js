@@ -1,16 +1,6 @@
 const { get } = require('request-promise');
 const co = require('co');
-const sampleRawString = `https://raw.githubusercontent.com/gaearon/react-hot-boilerplate/next/package.json`;
-const sampleLinkString = `https://github.com/wkwiatek/react-hot-loader-minimal-boilerplate`;
-
-// const urls = [
-//     `https://github.com/gaearon/react-hot-boilerplate/tree/next`,
-//     `https://github.com/wkwiatek/react-hot-loader-minimal-boilerplate`,
-//     `https://github.com/thomasthiebaud/react-kit`,
-//     `https://github.com/codeBelt/hapi-react-hot-loader-example`,
-// ];
-
-const urls = require('./extractLinks');
+const urls = require('./links.json');
 
 const rawStringToLinkString = string=>string
     .replace(`/tree/next`,``)
@@ -22,20 +12,20 @@ const links = urls.map(rawStringToLinkString);
 let packages = [];
 async function getLinks() {
     for (const link of links) {
-        // console.log("Link?",link);
-        // console.log("Doing...",link);
-        let data = await get(link);
-        // packages.push(JSON.stringify(data,null,2));
-        packages.push(JSON.parse(data));
-        // console.log("Data?",data);
+        try {
+            let data = await get(link);
+            packages.push(JSON.parse(data));
+        } catch (e) {
+            console.warn(`Encountered error for ${link}, skipping...`);
+        }
+
     };
     console.info(JSON.stringify(packages,null,2));
 };
 
 
-
-
-// console.log(links);
+let fs = require('fs');
+fs.writeFileSync('./react-packages.json',JSON.stringify(packages,null,2));
 
 
 co(getLinks);

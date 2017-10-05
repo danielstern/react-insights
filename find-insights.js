@@ -1,5 +1,9 @@
-const packages = require('./react-packages.json');
+let packages = require('./react-packages.json');
 let totalCount = packages.length;
+packages.forEach(p=>{
+    p.dependencies = p.dependencies || [];
+    p.devDependencies = p.devDependencies || [];
+});
 let insights = [{
     name:"Percentage using Deprecated es2015 Babel Preset",
     value:packages.filter(p=>Object.keys(p.dependencies).concat(Object.keys(p.devDependencies)).includes("babel-preset-es2015")).length / totalCount
@@ -39,9 +43,13 @@ insights.push({
 });
 
 
+
+
 // console.log(insights);
-insights.forEach(insight=>{
-    console.log(insight.name);
-    console.log(insight.value);
-    console.log('-----');
-});
+let insightsReportString = insights.map(insight=>`${insight.name}
+${insight.value}
+-----------------
+`).join('');
+
+let fs = require('fs');
+fs.writeFileSync('./insights.txt',insightsReportString,'utf-8');
